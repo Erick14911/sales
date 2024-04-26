@@ -34,7 +34,8 @@
  */
 // import Clase, { function as alias } from "./" 
 // export { function }
-
+import Persona from "assets/static/js/class/Persona.js";
+import Empleado from "assets/static/js/class/Empleado.js";
 'use strict';
 
 window.addEventListener('load', () => {
@@ -42,7 +43,7 @@ window.addEventListener('load', () => {
   if(navigator.cookieEnabled){
     console.log("cookies enabled");
   }
-
+/*
   const IP = "localhost" ?? '197.1.1'; // ? : ; && ;
   let mssg = `${data}`;
 // _array.length .includes('') 
@@ -67,7 +68,7 @@ window.addEventListener('load', () => {
 //  let _arrayArgs = [];
 //  _obj.toString.apply(_obj2,_arrayArgs);
   Object.seal(_obj); // Object.freeze(_json);
-
+*/
 /*
   // Ocultar o Mostrar password
   let togglePassword = document.querySelector("#togglePassword");
