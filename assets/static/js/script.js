@@ -34,8 +34,7 @@
  */
 // import Clase, { function as alias } from "./" 
 // export { function }
-import Persona from "assets/static/js/class/Persona.js";
-import Empleado from "assets/static/js/class/Empleado.js";
+import Persona from "class/Persona.js";
 'use strict';
 
 window.addEventListener('load', () => {
